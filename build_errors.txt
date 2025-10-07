@@ -1,0 +1,24 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+/root/EventApi/EventApi.Domain/Entity.cs(5,14): warning CS8618: Non-nullable property 'Id' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/root/EventApi/EventApi.Domain/EventApi.Domain.csproj]
+/root/EventApi/EventApi.Domain/Event.cs(8,13): warning CS8618: Non-nullable property 'Type' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/root/EventApi/EventApi.Domain/EventApi.Domain.csproj]
+/root/EventApi/EventApi.Domain/Event.cs(8,13): warning CS8618: Non-nullable property 'Payload' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/root/EventApi/EventApi.Domain/EventApi.Domain.csproj]
+  EventApi.Domain -> /root/EventApi/EventApi.Domain/bin/Debug/net9.0/EventApi.Domain.dll
+/root/EventApi/EventApi.Application/CreateEventCommand.cs(15,22): error CS0246: The type or namespace name 'IEventPublisher' could not be found (are you missing a using directive or an assembly reference?) [/root/EventApi/EventApi.Application/EventApi.Application.csproj]
+/root/EventApi/EventApi.Application/CreateEventCommand.cs(16,22): error CS0246: The type or namespace name 'EventAnalyticsService' could not be found (are you missing a using directive or an assembly reference?) [/root/EventApi/EventApi.Application/EventApi.Application.csproj]
+/root/EventApi/EventApi.Application/CreateEventCommand.cs(18,61): error CS0246: The type or namespace name 'IEventPublisher' could not be found (are you missing a using directive or an assembly reference?) [/root/EventApi/EventApi.Application/EventApi.Application.csproj]
+/root/EventApi/EventApi.Application/CreateEventCommand.cs(18,88): error CS0246: The type or namespace name 'EventAnalyticsService' could not be found (are you missing a using directive or an assembly reference?) [/root/EventApi/EventApi.Application/EventApi.Application.csproj]
+
+Build FAILED.
+
+/root/EventApi/EventApi.Domain/Entity.cs(5,14): warning CS8618: Non-nullable property 'Id' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/root/EventApi/EventApi.Domain/EventApi.Domain.csproj]
+/root/EventApi/EventApi.Domain/Event.cs(8,13): warning CS8618: Non-nullable property 'Type' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/root/EventApi/EventApi.Domain/EventApi.Domain.csproj]
+/root/EventApi/EventApi.Domain/Event.cs(8,13): warning CS8618: Non-nullable property 'Payload' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/root/EventApi/EventApi.Domain/EventApi.Domain.csproj]
+/root/EventApi/EventApi.Application/CreateEventCommand.cs(15,22): error CS0246: The type or namespace name 'IEventPublisher' could not be found (are you missing a using directive or an assembly reference?) [/root/EventApi/EventApi.Application/EventApi.Application.csproj]
+/root/EventApi/EventApi.Application/CreateEventCommand.cs(16,22): error CS0246: The type or namespace name 'EventAnalyticsService' could not be found (are you missing a using directive or an assembly reference?) [/root/EventApi/EventApi.Application/EventApi.Application.csproj]
+/root/EventApi/EventApi.Application/CreateEventCommand.cs(18,61): error CS0246: The type or namespace name 'IEventPublisher' could not be found (are you missing a using directive or an assembly reference?) [/root/EventApi/EventApi.Application/EventApi.Application.csproj]
+/root/EventApi/EventApi.Application/CreateEventCommand.cs(18,88): error CS0246: The type or namespace name 'EventAnalyticsService' could not be found (are you missing a using directive or an assembly reference?) [/root/EventApi/EventApi.Application/EventApi.Application.csproj]
+    3 Warning(s)
+    4 Error(s)
+
+Time Elapsed 00:00:04.38
