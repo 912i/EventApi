@@ -28,14 +28,14 @@ builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Creat
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IEventPublisher, EventPublisher>();
 builder.Services.AddScoped<EventCountService>();
-builder.Services.AddScoped<EventAnalyticsService>();
-builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<IEventAnalyticsService, EventAnalyticsService>();
+//builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Middleware
-app.UseSwagger();
-app.UseSwaggerUI();
+//app.UseSwagger();
+//app.UseSwaggerUI();
 app.MapPost("/events", async (CreateEventCommand cmd, ISender mediator) => Results.Ok(await mediator.Send(cmd)));
 app.MapGet("/events/{type}", async (string type, ISender mediator) => Results.Ok(await mediator.Send(new GetEventsByTypeQuery { Type = type })));
 app.MapGet("/events/{type}/count", async (string type, EventCountService svc) => Results.Ok(await svc.GetEventCountAsync(type)));

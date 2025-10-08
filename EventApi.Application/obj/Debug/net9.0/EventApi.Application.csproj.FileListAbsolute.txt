@@ -1,0 +1,16 @@
+/root/EventApi/EventApi.Application/bin/Debug/net9.0/EventApi.Application.deps.json
+/root/EventApi/EventApi.Application/bin/Debug/net9.0/EventApi.Application.dll
+/root/EventApi/EventApi.Application/bin/Debug/net9.0/EventApi.Application.pdb
+/root/EventApi/EventApi.Application/bin/Debug/net9.0/EventApi.Domain.dll
+/root/EventApi/EventApi.Application/bin/Debug/net9.0/EventApi.Domain.pdb
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.Application.csproj.AssemblyReference.cache
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.Application.AssemblyInfoInputs.cache
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.Application.AssemblyInfo.cs
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.Application.csproj.CoreCompileInputs.cache
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.Application.sourcelink.json
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.71F83E9B.Up2Date
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.Application.dll
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/refint/EventApi.Application.dll
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/EventApi.Application.pdb
+/root/EventApi/EventApi.Application/obj/Debug/net9.0/ref/EventApi.Application.dll

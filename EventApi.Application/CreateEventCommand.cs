@@ -14,9 +14,9 @@ public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand, Gui
 {
     private readonly IEventRepository _repo;
     private readonly IEventPublisher _publisher;
-    private readonly EventAnalyticsService _analytics;
+    private readonly IEventAnalyticsService _analytics;
 
-    public CreateEventCommandHandler(IEventRepository repo, IEventPublisher publisher, EventAnalyticsService analytics)
+    public CreateEventCommandHandler(IEventRepository repo, IEventPublisher publisher, IEventAnalyticsService analytics)
     {
         _repo = repo;
         _publisher = publisher;

@@ -1,12 +1,13 @@
 using ClickHouse.Client.ADO;
 using ClickHouse.Client.Utility;
+using EventApi.Application;
 using EventApi.Domain;
 using Microsoft.Extensions.Configuration;
 using System.Data;
 
 namespace EventApi.Infrastructure;
 
-public class EventAnalyticsService
+public class EventAnalyticsService : IEventAnalyticsService
 {
     private readonly ClickHouseConnection _client;
 

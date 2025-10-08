@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Caching.Distributed;
 using EventApi.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace EventApi.Infrastructure;
 

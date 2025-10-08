@@ -1,17 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\EventApi.Application\EventApi.Application.csproj" />
-    <ProjectReference Include="..\EventApi.Domain\EventApi.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="ClickHouse.Client" Version="7.14.0" />
     <PackageReference Include="MassTransit" Version="8.2.2" />
     <PackageReference Include="MassTransit.RabbitMQ" Version="8.2.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
     <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.9" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.2.0" /> 
+  </ItemGroup>
+
+  <ItemGroup>
+      <ProjectReference Include="..\EventApi.Application\EventApi.Application.csproj"/>
+      <ProjectReference Include="..\EventApi.Domain\EventApi.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

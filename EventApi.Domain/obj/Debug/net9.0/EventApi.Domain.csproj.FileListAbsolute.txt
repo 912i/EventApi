@@ -1,0 +1,13 @@
+/root/EventApi/EventApi.Domain/bin/Debug/net9.0/EventApi.Domain.deps.json
+/root/EventApi/EventApi.Domain/bin/Debug/net9.0/EventApi.Domain.dll
+/root/EventApi/EventApi.Domain/bin/Debug/net9.0/EventApi.Domain.pdb
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/EventApi.Domain.csproj.AssemblyReference.cache
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/EventApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/EventApi.Domain.AssemblyInfoInputs.cache
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/EventApi.Domain.AssemblyInfo.cs
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/EventApi.Domain.csproj.CoreCompileInputs.cache
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/EventApi.Domain.sourcelink.json
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/EventApi.Domain.dll
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/refint/EventApi.Domain.dll
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/EventApi.Domain.pdb
+/root/EventApi/EventApi.Domain/obj/Debug/net9.0/ref/EventApi.Domain.dll

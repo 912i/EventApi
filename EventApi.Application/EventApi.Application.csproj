@@ -1,16 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
+
+    <ItemGroup>
     <ProjectReference Include="..\EventApi.Domain\EventApi.Domain.csproj" />
+    <!--<ProjectReference Include="..\EventApi.Infrastructure\EventApi.Infrastructure.csproj"/>-->
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="13.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\EventApi.Domain\EventApi.Domain.csproj" />
-    <ProjectReference Include="..\EventApi.Infrastructure\EventApi.Infrastructure.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

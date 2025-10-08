@@ -1,10 +1,10 @@
 using MassTransit;
 using Microsoft.AspNetCore.SignalR;
-using EventApi.Api;
+
 
 namespace EventApi.Infrastructure;
 
-public class EventConsumer : IConsumer<object>
+public class EventConsumer : IConsumer<EventMessage>
 {
     private readonly IHubContext<EventHub> _hubContext;
 
@@ -13,7 +13,7 @@ public class EventConsumer : IConsumer<object>
         _hubContext = hubContext;
     }
 
-    public async Task Consume(ConsumeContext<object> context)
+    public async Task Consume(ConsumeContext<EventMessage> context)
     {
         var message = context.Message;
         await _hubContext.Clients.All.SendAsync("ReceiveEvent", message.Type, message.Payload);
