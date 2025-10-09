@@ -1,7 +1,7 @@
 # Event API - Gestion d'Événements avec Notifications Temps Réel
 
 ## Description
-Cette API backend est une implémentation légère mais robuste d'un système de gestion d'événements, conçue comme un MVP fonctionnel en environ 4-6 heures. Elle permet de créer, lire et diffuser des événements en temps réel, avec des fonctionnalités de stockage, de caching, et de traitement asynchrone. Ce projet démontre des compétences avancées en architecture logicielle (Clean Architecture, DDD, CQRS) et l'intégration de technologies modernes (.NET 9, SignalR, RabbitMQ, etc.), idéal pour un portfolio technique ou une démonstration auprès de recruteurs.
+Cette API backend est une implémentation légère mais robuste d'un système de gestion d'événements. Elle permet de créer, lire et diffuser des événements en temps réel, avec des fonctionnalités de stockage, de caching, et de traitement asynchrone. Ce projet démontre des compétences avancées en architecture logicielle (Clean Architecture, DDD, CQRS) et l'intégration de technologies modernes (.NET 9, SignalR, RabbitMQ, etc.), idéal pour un portfolio technique ou une démonstration auprès de recruteurs.
 
 ## Fonctionnalités
 - **CRUD Événements** : Création et lecture d'événements (ex. : `{ id, type, timestamp, payload }`).
