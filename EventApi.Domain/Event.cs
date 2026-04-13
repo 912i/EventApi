@@ -1,16 +1,13 @@
-namespace EventApi.Domain;
+using System.ComponentModel.DataAnnotations;
 
-public class Event : Entity<Guid>
+namespace EventApi.Domain
 {
-    public  string Type { get; private set; } // Ajout de 'required'
-    public DateTime Timestamp { get; private set; }
-    public string? Payload { get; private set; } // Nullable pour permettre null
-    private Event() { } // Pour EF Core
-    public Event(string type, string? payload)
+    public class Event
     {
-        Id = Guid.NewGuid();
-        Type = type ?? throw new ArgumentNullException(nameof(type));
-        Timestamp = DateTime.UtcNow;
-        Payload = payload;
+        [Key]
+        public int Id { get; set; }
+        public string Type { get; set; }
+        public DateTime Timestamp { get; set; }
+        public string Payload { get; set; }
     }
 }
